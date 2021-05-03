@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\work\\sit708\\android-basics-kotlin-words-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\work\\sit708\\android-basics-kotlin-words-app\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\work\\sit708\\android-basics-kotlin-words-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_view.xml",
+        "source": "D:\\work\\sit708\\android-basics-kotlin-words-app\\app\\src\\main\\res\\layout\\item_view.xml"
+    },
+    {
+        "merged": "D:\\work\\sit708\\android-basics-kotlin-words-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_word_list.xml",
+        "source": "D:\\work\\sit708\\android-basics-kotlin-words-app\\app\\src\\main\\res\\layout\\fragment_word_list.xml"
+    },
+    {
+        "merged": "D:\\work\\sit708\\android-basics-kotlin-words-app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_letter_list.xml",
+        "source": "D:\\work\\sit708\\android-basics-kotlin-words-app\\app\\src\\main\\res\\layout\\fragment_letter_list.xml"
+    }
+]

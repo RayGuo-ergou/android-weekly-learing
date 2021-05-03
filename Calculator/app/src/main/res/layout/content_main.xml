@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="111dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="71dp"
+        android:background="#F3F0A0"
+        android:onClick="addClick"
+        android:text="+"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultTextView" />
+
+    <Button
+        android:id="@+id/multiplyButton"
+        android:layout_width="111dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:background="#F3F0A0"
+        android:onClick="mulClick"
+        android:text="*"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/divideButton"
+        app:layout_constraintTop_toBottomOf="@+id/subtractButton" />
+
+    <Button
+        android:id="@+id/divideButton"
+        android:layout_width="111dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="44dp"
+        android:background="#F3F0A0"
+        android:onClick="divClick"
+        android:text="/"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addButton" />
+
+    <Button
+        android:id="@+id/subtractButton"
+        android:layout_width="111dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:background="#F3F0A0"
+        android:onClick="subClick"
+        android:text="-"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/addButton"
+        app:layout_constraintTop_toBottomOf="@+id/resultTextView" />
+
+    <EditText
+        android:id="@+id/operand1EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/operand2EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/operand1EditText" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="168dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginRight="121dp"
+        android:text="0"
+        android:textColor="#009688"
+        android:textColorHint="#107E72"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/operand2EditText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
