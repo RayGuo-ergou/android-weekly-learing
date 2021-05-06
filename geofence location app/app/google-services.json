@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1062502094006",
+    "project_id": "dynamic-moment-312708",
+    "storage_bucket": "dynamic-moment-312708.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062502094006:android:6cc3950b5c9f6782ec0217",
+        "android_client_info": {
+          "package_name": "com.example.geofencinglocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062502094006-741mde77r0fn9dpe7o1lkobq8ar1a52c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKHv2hnUNwe9J52N-nMB1tvm29fUMv9Oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062502094006-741mde77r0fn9dpe7o1lkobq8ar1a52c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

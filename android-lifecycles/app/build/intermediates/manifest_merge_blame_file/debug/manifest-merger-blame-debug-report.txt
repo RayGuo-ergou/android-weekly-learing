@@ -1,0 +1,209 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2019, The Android Open Source Project
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~      http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.codelabs.lifecycle"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="29" />
+24-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+26-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:21:5-79
+26-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:21:22-76
+27    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+27-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:22:5-81
+27-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:22:22-78
+28
+29    <uses-feature android:name="android.hardware.location.gps" />
+29-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:24:5-66
+29-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:24:19-63
+30
+31    <application
+31-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:26:5-103:19
+32        android:allowBackup="true"
+32-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:27:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] C:\Users\ma280\.gradle\caches\transforms-2\files-2.1\57bab859af2d485e3d8bbb044a91f521\core-1.1.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:28:9-43
+36        android:label="@string/app_name"
+36-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:29:9-41
+37        android:supportsRtl="true"
+37-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:30:9-35
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme" >
+39-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:31:9-40
+40        <activity
+40-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:32:9-39:20
+41            android:name="com.example.android.lifecycles.step1.ChronoActivity1"
+41-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:33:13-80
+42            android:label="LC Step1" >
+42-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:34:13-37
+43            <intent-filter>
+43-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:35:13-38:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:17-69
+44-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:37:17-77
+46-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:37:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:40:9-46:20
+50            android:name="com.example.android.lifecycles.step2.ChronoActivity2"
+50-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:41:13-80
+51            android:label="LC Step2" >
+51-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:42:13-37
+52            <intent-filter>
+52-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:43:13-45:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:17-69
+53-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:25-66
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:47:9-53:20
+57            android:name="com.example.android.lifecycles.step3.ChronoActivity3"
+57-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:48:13-80
+58            android:label="LC Step3" >
+58-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:49:13-37
+59            <intent-filter>
+59-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:43:13-45:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:17-69
+60-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:25-66
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:54:9-60:20
+64            android:name="com.example.android.lifecycles.step3_solution.ChronoActivity3"
+64-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:55:13-89
+65            android:label="LC Step3 Sol" >
+65-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:56:13-41
+66            <intent-filter>
+66-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:43:13-45:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:17-69
+67-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:25-66
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:61:9-67:20
+71            android:name="com.example.android.lifecycles.step4_solution.LocationActivity"
+71-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:62:13-90
+72            android:label="LC Step4" >
+72-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:63:13-37
+73            <intent-filter>
+73-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:43:13-45:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:17-69
+74-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:25-66
+75            </intent-filter>
+76        </activity>
+77        <activity
+77-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:68:9-74:20
+78            android:name="com.example.android.lifecycles.step4.LocationActivity"
+78-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:69:13-81
+79            android:label="LC Step4" >
+79-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:70:13-37
+80            <intent-filter>
+80-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:43:13-45:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:17-69
+81-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:25-66
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:75:9-81:20
+85            android:name="com.example.android.lifecycles.step5.Activity_step5"
+85-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:76:13-79
+86            android:label="LC Step5" >
+86-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:77:13-37
+87            <intent-filter>
+87-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:43:13-45:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:17-69
+88-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:25-66
+89            </intent-filter>
+90        </activity>
+91        <activity
+91-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:82:9-88:20
+92            android:name="com.example.android.lifecycles.step5_solution.Activity_step5"
+92-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:83:13-88
+93            android:label="LC Step5 Sol" >
+93-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:84:13-41
+94            <intent-filter>
+94-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:43:13-45:29
+95                <action android:name="android.intent.action.MAIN" />
+95-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:17-69
+95-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:25-66
+96            </intent-filter>
+97        </activity>
+98        <activity
+98-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:89:9-95:20
+99            android:name="com.example.android.lifecycles.step6.SavedStateActivity"
+99-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:90:13-83
+100            android:label="LC Step6" >
+100-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:91:13-37
+101            <intent-filter>
+101-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:43:13-45:29
+102                <action android:name="android.intent.action.MAIN" />
+102-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:17-69
+102-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:25-66
+103            </intent-filter>
+104        </activity>
+105        <activity
+105-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:96:9-102:20
+106            android:name="com.example.android.lifecycles.step6_solution.SavedStateActivity"
+106-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:97:13-92
+107            android:label="LC Step6 Sol" >
+107-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:98:13-41
+108            <intent-filter>
+108-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:43:13-45:29
+109                <action android:name="android.intent.action.MAIN" />
+109-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:17-69
+109-->D:\work\sit708\assignment2\assignment2 codes\android-lifecycles\app\src\main\AndroidManifest.xml:36:25-66
+110            </intent-filter>
+111        </activity>
+112
+113        <service
+113-->[androidx.room:room-runtime:2.2.4] C:\Users\ma280\.gradle\caches\transforms-2\files-2.1\f90df265172be1ddebc06483151688a2\room-runtime-2.2.4\AndroidManifest.xml:25:9-27:40
+114            android:name="androidx.room.MultiInstanceInvalidationService"
+114-->[androidx.room:room-runtime:2.2.4] C:\Users\ma280\.gradle\caches\transforms-2\files-2.1\f90df265172be1ddebc06483151688a2\room-runtime-2.2.4\AndroidManifest.xml:26:13-74
+115            android:exported="false" />
+115-->[androidx.room:room-runtime:2.2.4] C:\Users\ma280\.gradle\caches\transforms-2\files-2.1\f90df265172be1ddebc06483151688a2\room-runtime-2.2.4\AndroidManifest.xml:27:13-37
+116
+117        <provider
+117-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ma280\.gradle\caches\transforms-2\files-2.1\e9497ab1d9ae8e8b3f86ce982b474cae\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+118            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+118-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ma280\.gradle\caches\transforms-2\files-2.1\e9497ab1d9ae8e8b3f86ce982b474cae\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+119            android:authorities="com.example.android.codelabs.lifecycle.lifecycle-process"
+119-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ma280\.gradle\caches\transforms-2\files-2.1\e9497ab1d9ae8e8b3f86ce982b474cae\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+120            android:exported="false"
+120-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ma280\.gradle\caches\transforms-2\files-2.1\e9497ab1d9ae8e8b3f86ce982b474cae\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+121            android:multiprocess="true" />
+121-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\ma280\.gradle\caches\transforms-2\files-2.1\e9497ab1d9ae8e8b3f86ce982b474cae\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+122    </application>
+123
+124</manifest>

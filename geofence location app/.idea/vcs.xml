@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/SpliteBill" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/android-basics-kotlin-words-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/week6/android-advanced-starter-apps" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/week6/android-samples" vcs="Git" />
+  </component>
+</project>

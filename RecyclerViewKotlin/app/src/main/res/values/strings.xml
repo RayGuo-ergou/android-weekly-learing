@@ -57,5 +57,6 @@
     <string name="fab_content_description">fab</string>
     <string name="flower_image_content_description">Image of flower</string>
     <string name="remove_this_flower">Remove this flower</string>
+    <string name="element_text">text</string>
 
 </resources>

@@ -25,6 +25,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.recyclersample.R
 import com.example.recyclersample.flowerList.FLOWER_ID
 
+
 class FlowerDetailActivity : AppCompatActivity() {
 
     private val flowerDetailViewModel by viewModels<FlowerDetailViewModel> {

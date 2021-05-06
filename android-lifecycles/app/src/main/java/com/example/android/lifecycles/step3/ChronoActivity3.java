@@ -26,7 +26,6 @@ import android.widget.TextView;
 
 import com.example.android.codelabs.lifecycle.R;
 
-
 public class ChronoActivity3 extends AppCompatActivity {
 
     private LiveDataTimerViewModel mLiveDataTimerViewModel;
@@ -53,6 +52,6 @@ public class ChronoActivity3 extends AppCompatActivity {
             }
         };
 
-        //TODO: observe the ViewModel's elapsed time
+        mLiveDataTimerViewModel.getElapsedTime().observe(this, elapsedTimeObserver);
     }
 }
